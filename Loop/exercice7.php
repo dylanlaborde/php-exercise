@@ -1,0 +1,8 @@
+<h3>Exercice 7 : </h3>
+
+<?php  
+for ($i=0; $i <101 ; $i+=15) { 
+
+ 	  echo "<li>"."\n"."i ="."$i"."\n"."On tient le bon bout"."\n"."</li>";
+	
+}
