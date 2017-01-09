@@ -1,4 +1,4 @@
-<h3>Exercice 5 : </h3>
+<h3>Exercice 6 : </h3>
 <?php 
 
  for ($i=20; $i >-1 ; $i--) { 
