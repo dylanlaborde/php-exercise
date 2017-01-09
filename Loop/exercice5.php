@@ -3,5 +3,7 @@
 <?php 
 
 for ($i=1; $i <16 ; $i++) { 
-	echo "<li>"."\n"."i ="."$i"."\n"."On y arrive presque"."\n"."</li>";
+
+	echo "<li>"."\n"."On y arrive presque"."\n"."( i ="."$i )"."</li>";
+
 }

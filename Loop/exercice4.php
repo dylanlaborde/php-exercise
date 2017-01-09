@@ -4,15 +4,15 @@ $i = 1;
 for (; ;) {
 
 	
-	if ($i > 15) {
+	if ($i > 14) {
 		break;
 	}
 	if ($i <= 10) {
 		$moitier = $i/2;
 		$i = $i + $moitier;
-		echo  "<li>"."\n"."i =".$i."\n"."</li>";
+		echo "<li>"."\n"."i =".$i."\n"."</li>";
+
 	}else{
-		
 		echo "la variable est superieur a 10";
 	}
 
