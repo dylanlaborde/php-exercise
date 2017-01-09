@@ -8,6 +8,8 @@ require __DIR__. '/../Loop/exercice1.php';
 require __DIR__. '/../Loop/exercice2.php';
 require __DIR__. '/../Loop/exercice3.php';
 require __DIR__. '/../Loop/exercice4.php';
+require __DIR__. '/../Loop/exercice5.php';
+
 
 
 
