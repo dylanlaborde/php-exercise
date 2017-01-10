@@ -14,3 +14,4 @@ require __DIR__. '/../Array/exercice7.php';
 require __DIR__. '/../Array/exercice8.php';
 
 
+include __DIR__. '/../Array/exercice1.php';
