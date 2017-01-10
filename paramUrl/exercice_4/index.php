@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 if (isset($_GET["langage"])) {
-	// echo $_GET["langage"];
+	
 	echo "\n".$_GET["langage"]."\n";
 
 }
