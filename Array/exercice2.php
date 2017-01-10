@@ -2,6 +2,6 @@
 
 <?php 
 
-var_dump($mois[2]);
+print_r($mois[2]);
 
  ?>
