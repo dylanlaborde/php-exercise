@@ -2,8 +2,6 @@
 
 <?php 
 
-include 'exercice1.php';
 var_dump($mois[2]);
-
 
  ?>
