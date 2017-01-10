@@ -14,4 +14,3 @@ require __DIR__. '/../Function/exercice7.php';
 require __DIR__. '/../Function/exercice8.php';
 
 
-echo thisTrue();
