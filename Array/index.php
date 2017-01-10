@@ -12,6 +12,8 @@ require __DIR__. '/../Array/exercice5.php';
 require __DIR__. '/../Array/exercice6.php';
 require __DIR__. '/../Array/exercice7.php';
 require __DIR__. '/../Array/exercice8.php';
+require __DIR__. '/../Array/exercice9.php';
+require __DIR__. '/../Array/exercice10.php';
 
 
 include __DIR__. '/../Array/exercice1.php';
