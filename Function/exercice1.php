@@ -5,5 +5,7 @@ function thisTrue(){
 	return True;
 }
 
+echo thisTrue();
+
 
 
