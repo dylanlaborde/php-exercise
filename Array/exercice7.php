@@ -2,8 +2,8 @@
 
 <?php 
 
+$tab[51] = "Reims";
 
-array_push($tab, '"51" => "Reims"');
-print_r($tab);
+var_dump($tab);
 
  ?>
