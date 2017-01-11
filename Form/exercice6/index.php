@@ -19,11 +19,6 @@ error_reporting(E_ALL);
 	</div>
 
 	<?php } 
-
-	if(empty($_POST['nom']) || empty($_GET['nom'])){
-		include __DIR__. '/../exercice5/index.php';
-		
-	}
 	else { 
 		include __DIR__. '/../exercice5/index.php';
 	}?> 
