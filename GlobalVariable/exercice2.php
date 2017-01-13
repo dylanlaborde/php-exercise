@@ -2,7 +2,15 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+session_start();
+
+$_SESSION["prenom"] = "Dylan";
+$nom = $_SESSION["nom"] = "Laborde";
+$age = $_SESSION["age"] = "20";
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +29,7 @@ error_reporting(E_ALL);
 		</ul>
 	</menu>
 	<h3>exerice 2 :</h3>
-
+<li><a href="/exercice2_sesion.php">acceder a vos information</a></li>
 
 </body>
 </html>
