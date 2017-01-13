@@ -20,6 +20,26 @@ error_reporting(E_ALL);
 			<li role="presentation"><a href="/exercice5.php">exercice 5</a></li>
 		</ul>
 	</menu>
-	<h3>exerice 1 :</h3>
+	<div>
+		<h3>exerice 1 :</h3>
+	</div>
+	<div>
+		
+		<?php 
+		$userAgent =$_SERVER['HTTP_USER_AGENT'];
+		$ip = $_SERVER['REMOTE_ADDR'];
+		$server = $_SERVER['SERVER_NAME'];
+
+		echo "<div>"."user agent :"."\n".$userAgent."</div>";
+		echo "<div>"."votre addresse ip est :"."\n".$ip."</div>";
+		echo "<div>"."le nom du serveur est :"."\n".$server."</div>";
+
+
+		 ?>
+
+
+
+
+	</div>
 </body>
 </html>
