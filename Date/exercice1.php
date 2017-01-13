@@ -25,8 +25,15 @@ error_reporting(E_ALL);
 		</ul>
 	</menu>
 	<div>
-		<h3>Afficher la date courante !</h3>
-		
+		<h3>Afficher la date courante ! ( format : jj/mm/aaaa )</h3>
+		<div>
+			<?php 
+			$localDate = date("d/m/Y");
+			echo "<div>"."Aujourd'hui nous somme le"."\n".$localDate."</div>";
+
+			 ?>
+
+		</div>
 	</div>
 </body>
 </html>
