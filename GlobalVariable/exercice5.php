@@ -21,7 +21,18 @@ error_reporting(E_ALL);
 		</ul>
 	</menu>
 	<h3>exerice 5 :</h3>
+	<form action="exercice3.php" method="POST">
+		<div>
+			<label for="">modifier votre mail</label>
+			<input type="text" name="mail">
+		</div>
+		<div>
+			<label for="">nouveau mot de passe</label>
+			<input type="text" name="mdp">
+		</div>
+		<button type="submit">valider les modification</button>
 
-
+	</form>
 </body>
 </html>
+
