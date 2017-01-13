@@ -21,6 +21,32 @@ error_reporting(E_ALL);
 		</ul>
 	</menu>
 	<h3>exerice 3 :</h3>
+	
+
+	<div class="container">
+		<form method="POST" action="/exercice4.php">
+			<div class="form-group row">
+				<label for="mail" class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="mail" name="mail">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="mdp" class="col-sm-2 col-form-label">Mot de passe</label>
+				<div class="col-sm-10">
+					<input type="password" class="form-control" id="mdp" name="mdp">
+				</div>
+			</div>
+
+			
+			<div class="form-group row">
+				<div class="offset-sm-2 col-sm-10">
+					<button type="submit" class="btn btn-primary">Connexion</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
 
 
 </body>
