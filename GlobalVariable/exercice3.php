@@ -2,8 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-setcookie("mail",$_POST["mail"], time() + 3600);
-setcookie("mdp",$_POST["mdp"], time() + 3600);
+setcookie("mail",$_POST["mail"],time() + 3600);
+setcookie("mdp",$_POST["mdp"],time() + 3600);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +23,9 @@ setcookie("mdp",$_POST["mdp"], time() + 3600);
 		</ul>
 	</menu>
 	<h3>exerice 3 :</h3>
-	
 
 	<div class="container">
-		<form method="POST" action="/exercice4.php">
+		<form method="POST" action="/exercice3.php" action="/exercice4.php">
 			<div class="form-group row">
 				<label for="mail" class="col-sm-2 col-form-label">Email</label>
 				<div class="col-sm-10">
@@ -48,8 +47,5 @@ setcookie("mdp",$_POST["mdp"], time() + 3600);
 			</div>
 		</form>
 	</div>
-
-
-
 </body>
 </html>
