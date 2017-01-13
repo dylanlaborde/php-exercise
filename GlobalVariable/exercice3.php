@@ -2,8 +2,10 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-setcookie("mail",$_POST["mail"],time() + 3600);
-setcookie("mdp",$_POST["mdp"],time() + 3600);
+if (isset($_POST["mail"]) || isset($_POST["mdp"])) {
+	setcookie("mail",$_POST["mail"],time() + 3600);
+	setcookie("mdp",$_POST["mdp"],time() + 3600);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
