@@ -27,7 +27,7 @@ if (isset($_POST["mail"]) || isset($_POST["mdp"])) {
 	<h3>exerice 3 :</h3>
 
 	<div class="container">
-		<form method="POST" action="/exercice3.php" action="/exercice4.php">
+		<form method="POST" action="/exercice4.php">
 			<div class="form-group row">
 				<label for="mail" class="col-sm-2 col-form-label">Email</label>
 				<div class="col-sm-10">
