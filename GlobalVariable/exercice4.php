@@ -22,6 +22,16 @@ error_reporting(E_ALL);
 	</menu>
 	<h3>exerice 4 :</h3>
 
+	<div>
+		
+		<?php 
+
+			echo "<div>"."votre mail est :"."\n".$_COOKIE["mail"]."</div>";
+			echo "<div>"."votre Mot de passe est :"."\n".$_COOKIE["mdp"]."</div>";
+	
+		 ?>
+	</div>
+
 
 </body>
 </html>
